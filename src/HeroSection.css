@@ -1,0 +1,91 @@
+.banner {
+  position: relative;
+  background-size: cover;  /* Ensures the image covers the entire section */
+  background-position: center center; /* Centers the image */
+  padding: 50px 20px;
+  text-align: center;
+  color: #fff;
+  height: 450px;
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Overlay: Using a pseudo-element */
+.banner::before {
+  content: '';                     /* Empty content */
+  position: absolute;              /* Position it absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3173b8;       /* Apply your desired color */
+  opacity: 0.5;                    /* Adjust the opacity of the overlay */
+  z-index: 1;                      /* Ensure the overlay is above the image, but below the text */
+}
+
+/* Text will appear above the overlay */
+.banner-text {
+  position: relative;              /* Ensures the text appears above the overlay */
+  z-index: 2;                      /* Text is above the overlay */
+  font-size: 32px;
+  font-weight: bold;
+}
+.banner-textsecond{
+  position: relative;              /* Ensures the text appears above the overlay */
+  z-index: 2;                      /* Text is above the overlay */
+  font-size: 40px;
+  margin: 0 0 50px 0;
+  font-weight: 400;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.search-input {
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 16px;
+  font-size: 13px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-size: 20px; /* Adjust the size of the icon */
+}
+
+.search-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  background-color: #00722f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.buyer-text {
+  position: relative;
+  z-index: 2;
+  font-size: 18px;
+  color: #fff;
+}
+
+.buyer-text a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.buyer-text a:hover {
+  text-decoration: underline;
+}

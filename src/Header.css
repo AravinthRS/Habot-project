@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* Dark background color */
+  color: #ffffff;
+}
+
+.header-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  max-height: 70px;/* Adjust based on your logo size */
+  width: 120px;
+}
+
+.header-center {
+  flex: 2;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-center nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+
+.header-center nav ul li {
+  display: inline;
+}
+
+.header-center nav ul li a {
+  color: #898a8b;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header-right {
+  flex: .5;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50; /* Green button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+button.signup-btn {
+  border: solid 1px #28a745;
+  background-color: #ffffff; /* Green for sign up */
+  color: #0f6835;
+}
+
+button.signup-btn:hover {
+  border: solid 2px #0f7525;
+  background-color: #f1eaea; /* Darker green on hover */
+}

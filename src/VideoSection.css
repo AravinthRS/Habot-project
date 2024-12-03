@@ -1,0 +1,125 @@
+/* .video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .video-section iframe {
+    width: 80%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .buyer-supplier-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .buyer-info, .supplier-info {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .buyer-info h3, .supplier-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .buyer-info ul, .supplier-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .buyer-info ul li, .supplier-info ul li {
+    margin: 5px 0;
+  }
+   */
+
+   .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #00264d; /* Dark blue background */
+    color: #ffffff;
+  }
+  
+  .video-section {
+    position: relative;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .video-thumbnail {
+    width: 90%;
+    border-radius: 8px;
+  }
+  
+  .play-button-overlay {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .instruction {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .bubble {
+    margin: 15px auto;
+    font-size: 16px;
+    font-style: italic;
+    background-color: #ffffff;
+    color: #00264d;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+  }
+  
+  .info-section {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .info-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .buyer {
+    color: #ff4500; /* Orange */
+  }
+  
+  .supplier {
+    color: #32cd32; /* Green */
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  

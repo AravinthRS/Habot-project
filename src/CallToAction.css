@@ -1,0 +1,24 @@
+.call-to-action {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9f7ef;
+  }
+  
+  .call-to-action h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action h2 span {
+    color: #007bff;
+  }
+  
+  .get-verified-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
